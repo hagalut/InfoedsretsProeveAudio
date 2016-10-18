@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.android.uamp.ui;
+package dk.glutter.android.dansker.uamp.ui;
 
 import android.app.Fragment;
 import android.content.Intent;
@@ -34,10 +34,10 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.android.uamp.AlbumArtCache;
-import com.example.android.uamp.MusicService;
-import com.example.android.uamp.R;
-import com.example.android.uamp.utils.LogHelper;
+import dk.glutter.android.dansker.uamp.AlbumArtCache;
+import dk.glutter.android.dansker.uamp.MusicService;
+import dk.glutter.android.dansker.uamp.R;
+import dk.glutter.android.dansker.uamp.utils.LogHelper;
 
 /**
  * A class that shows the Media Queue to the user.

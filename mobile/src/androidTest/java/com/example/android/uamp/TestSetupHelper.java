@@ -14,11 +14,11 @@
 * limitations under the License.
 */
 
-package com.example.android.uamp;
+package dk.glutter.android.dansker.uamp;
 
-import com.example.android.uamp.model.MusicProvider;
-import com.example.android.uamp.model.MusicProviderSource;
-import com.example.android.uamp.utils.SimpleMusicProviderSource;
+import dk.glutter.android.dansker.uamp.model.MusicProvider;
+import dk.glutter.android.dansker.uamp.model.MusicProviderSource;
+import dk.glutter.android.dansker.uamp.utils.SimpleMusicProviderSource;
 
 import java.util.concurrent.CountDownLatch;
 

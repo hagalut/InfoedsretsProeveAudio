@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.example.android.uamp;
+package dk.glutter.android.dansker.uamp;
 
 import android.graphics.Bitmap;
 import android.os.AsyncTask;
 import android.util.LruCache;
 
-import com.example.android.uamp.utils.BitmapHelper;
-import com.example.android.uamp.utils.LogHelper;
+import dk.glutter.android.dansker.uamp.utils.BitmapHelper;
+import dk.glutter.android.dansker.uamp.utils.LogHelper;
 
 import java.io.IOException;
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.uamp;
+package dk.glutter.android.dansker.uamp;
 
 import android.app.Notification;
 import android.app.PendingIntent;
@@ -35,9 +35,9 @@ import android.support.v4.media.session.MediaSessionCompat;
 import android.support.v4.media.session.PlaybackStateCompat;
 import android.support.v7.app.NotificationCompat;
 
-import com.example.android.uamp.ui.MusicPlayerActivity;
-import com.example.android.uamp.utils.LogHelper;
-import com.example.android.uamp.utils.ResourceHelper;
+import dk.glutter.android.dansker.uamp.ui.MusicPlayerActivity;
+import dk.glutter.android.dansker.uamp.utils.LogHelper;
+import dk.glutter.android.dansker.uamp.utils.ResourceHelper;
 
 /**
  * Keeps track of a notification and updates it automatically for a given
@@ -50,11 +50,11 @@ public class MediaNotificationManager extends BroadcastReceiver {
     private static final int NOTIFICATION_ID = 412;
     private static final int REQUEST_CODE = 100;
 
-    public static final String ACTION_PAUSE = "com.example.android.uamp.pause";
-    public static final String ACTION_PLAY = "com.example.android.uamp.play";
-    public static final String ACTION_PREV = "com.example.android.uamp.prev";
-    public static final String ACTION_NEXT = "com.example.android.uamp.next";
-    public static final String ACTION_STOP_CASTING = "com.example.android.uamp.stop_cast";
+    public static final String ACTION_PAUSE = "dk.glutter.android.dansker.uamp.pause";
+    public static final String ACTION_PLAY = "dk.glutter.android.dansker.uamp.play";
+    public static final String ACTION_PREV = "dk.glutter.android.dansker.uamp.prev";
+    public static final String ACTION_NEXT = "dk.glutter.android.dansker.uamp.next";
+    public static final String ACTION_STOP_CASTING = "dk.glutter.android.dansker.uamp.stop_cast";
 
     private final MusicService mService;
     private MediaSessionCompat.Token mSessionToken;

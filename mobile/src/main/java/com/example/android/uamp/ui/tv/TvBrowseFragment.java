@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.android.uamp.ui.tv;
+package dk.glutter.android.dansker.uamp.ui.tv;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -35,9 +35,9 @@ import android.support.v4.media.session.MediaSessionCompat;
 import android.text.TextUtils;
 import android.view.View;
 
-import com.example.android.uamp.R;
-import com.example.android.uamp.utils.LogHelper;
-import com.example.android.uamp.utils.MediaIDHelper;
+import dk.glutter.android.dansker.uamp.R;
+import dk.glutter.android.dansker.uamp.utils.LogHelper;
+import dk.glutter.android.dansker.uamp.utils.MediaIDHelper;
 
 import java.util.HashSet;
 import java.util.Iterator;
@@ -60,7 +60,7 @@ import static android.support.v4.media.MediaBrowserCompat.MediaItem;
  * it is not the same.
  * <p/>
  * <p/>
- * It uses a {@link android.support.v4.media.MediaBrowserCompat} to connect to the {@link com.example.android.uamp.MusicService}.
+ * It uses a {@link android.support.v4.media.MediaBrowserCompat} to connect to the {@link dk.glutter.android.dansker.uamp.MusicService}.
  * Once connected, the fragment subscribes to get the children of level 1 and then, for each
  * children, it adds a ListRow and subscribes for its children, which, when received, are
  * added to the ListRow. These items (like "Rock"), when clicked, will open a

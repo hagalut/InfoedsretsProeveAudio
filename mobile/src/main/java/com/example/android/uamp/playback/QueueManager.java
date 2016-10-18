@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.uamp.playback;
+package dk.glutter.android.dansker.uamp.playback;
 
 import android.content.res.Resources;
 import android.graphics.Bitmap;
@@ -23,12 +23,12 @@ import android.support.annotation.NonNull;
 import android.support.v4.media.MediaMetadataCompat;
 import android.support.v4.media.session.MediaSessionCompat;
 
-import com.example.android.uamp.AlbumArtCache;
-import com.example.android.uamp.R;
-import com.example.android.uamp.model.MusicProvider;
-import com.example.android.uamp.utils.LogHelper;
-import com.example.android.uamp.utils.MediaIDHelper;
-import com.example.android.uamp.utils.QueueHelper;
+import dk.glutter.android.dansker.uamp.AlbumArtCache;
+import dk.glutter.android.dansker.uamp.R;
+import dk.glutter.android.dansker.uamp.model.MusicProvider;
+import dk.glutter.android.dansker.uamp.utils.LogHelper;
+import dk.glutter.android.dansker.uamp.utils.MediaIDHelper;
+import dk.glutter.android.dansker.uamp.utils.QueueHelper;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.example.android.uamp.model;
+package dk.glutter.android.dansker.uamp.model;
 
 import android.support.v4.media.MediaMetadataCompat;
 
-import com.example.android.uamp.utils.LogHelper;
+import dk.glutter.android.dansker.uamp.utils.LogHelper;
 
 import org.json.JSONArray;
 import org.json.JSONException;

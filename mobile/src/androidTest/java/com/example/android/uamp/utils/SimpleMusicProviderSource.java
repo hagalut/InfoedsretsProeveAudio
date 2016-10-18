@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.example.android.uamp.utils;
+package dk.glutter.android.dansker.uamp.utils;
 
 import android.support.v4.media.MediaMetadataCompat;
 
-import com.example.android.uamp.model.MusicProviderSource;
+import dk.glutter.android.dansker.uamp.model.MusicProviderSource;
 
 import java.util.ArrayList;
 import java.util.Iterator;

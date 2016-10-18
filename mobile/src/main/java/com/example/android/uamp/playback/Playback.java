@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.android.uamp.playback;
+package dk.glutter.android.dansker.uamp.playback;
 
-import com.example.android.uamp.MusicService;
+import dk.glutter.android.dansker.uamp.MusicService;
 
 import static android.support.v4.media.session.MediaSessionCompat.QueueItem;
 

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.android.uamp.ui;
+package dk.glutter.android.dansker.uamp.ui;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -38,10 +38,10 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.android.uamp.R;
-import com.example.android.uamp.utils.LogHelper;
-import com.example.android.uamp.utils.MediaIDHelper;
-import com.example.android.uamp.utils.NetworkHelper;
+import dk.glutter.android.dansker.uamp.R;
+import dk.glutter.android.dansker.uamp.utils.LogHelper;
+import dk.glutter.android.dansker.uamp.utils.MediaIDHelper;
+import dk.glutter.android.dansker.uamp.utils.NetworkHelper;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -50,7 +50,7 @@ import java.util.List;
  * A Fragment that lists all the various browsable queues available
  * from a {@link android.service.media.MediaBrowserService}.
  * <p/>
- * It uses a {@link MediaBrowserCompat} to connect to the {@link com.example.android.uamp.MusicService}.
+ * It uses a {@link MediaBrowserCompat} to connect to the {@link dk.glutter.android.dansker.uamp.MusicService}.
  * Once connected, the fragment subscribes to get all the children.
  * All {@link MediaBrowserCompat.MediaItem}'s that can be browsed are shown in a ListView.
  */

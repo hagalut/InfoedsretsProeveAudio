@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.android.uamp.ui;
+package dk.glutter.android.dansker.uamp.ui;
 
 import android.os.Bundle;
 
-import com.example.android.uamp.R;
+import dk.glutter.android.dansker.uamp.R;
 
 /**
  * Placeholder activity for features that are not implemented in this sample, but

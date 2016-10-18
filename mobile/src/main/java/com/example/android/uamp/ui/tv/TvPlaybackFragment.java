@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.android.uamp.ui.tv;
+package dk.glutter.android.dansker.uamp.ui.tv;
 
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
@@ -49,9 +49,9 @@ import android.support.v4.media.session.MediaSessionCompat;
 import android.support.v4.media.session.PlaybackStateCompat;
 import android.text.TextUtils;
 
-import com.example.android.uamp.AlbumArtCache;
-import com.example.android.uamp.utils.LogHelper;
-import com.example.android.uamp.utils.MediaIDHelper;
+import dk.glutter.android.dansker.uamp.AlbumArtCache;
+import dk.glutter.android.dansker.uamp.utils.LogHelper;
+import dk.glutter.android.dansker.uamp.utils.MediaIDHelper;
 
 import java.util.List;
 

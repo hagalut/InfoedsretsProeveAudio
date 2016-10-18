@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.uamp;
+package dk.glutter.android.dansker.uamp;
 
 import android.content.Context;
 

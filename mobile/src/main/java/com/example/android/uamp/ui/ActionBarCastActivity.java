@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.android.uamp.ui;
+package dk.glutter.android.dansker.uamp.ui;
 
 import android.app.ActivityOptions;
 import android.app.FragmentManager;
@@ -32,8 +32,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-import com.example.android.uamp.R;
-import com.example.android.uamp.utils.LogHelper;
+import dk.glutter.android.dansker.uamp.R;
+import dk.glutter.android.dansker.uamp.utils.LogHelper;
 import com.google.android.gms.cast.framework.CastButtonFactory;
 import com.google.android.gms.cast.framework.CastContext;
 import com.google.android.gms.cast.framework.CastState;

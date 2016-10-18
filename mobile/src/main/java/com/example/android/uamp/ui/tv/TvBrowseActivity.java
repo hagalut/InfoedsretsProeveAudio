@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.android.uamp.ui.tv;
+package dk.glutter.android.dansker.uamp.ui.tv;
 
 import android.content.ComponentName;
 import android.content.Intent;
@@ -24,9 +24,9 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v4.media.MediaBrowserCompat;
 import android.support.v4.media.session.MediaControllerCompat;
 
-import com.example.android.uamp.MusicService;
-import com.example.android.uamp.R;
-import com.example.android.uamp.utils.LogHelper;
+import dk.glutter.android.dansker.uamp.MusicService;
+import dk.glutter.android.dansker.uamp.R;
+import dk.glutter.android.dansker.uamp.utils.LogHelper;
 
 /**
  * Main activity for the Android TV user interface.
@@ -35,8 +35,8 @@ public class TvBrowseActivity extends FragmentActivity
         implements TvBrowseFragment.MediaFragmentListener {
 
     private static final String TAG = LogHelper.makeLogTag(TvBrowseActivity.class);
-    public static final String SAVED_MEDIA_ID="com.example.android.uamp.MEDIA_ID";
-    public static final String BROWSE_TITLE = "com.example.android.uamp.BROWSE_TITLE";
+    public static final String SAVED_MEDIA_ID="dk.glutter.android.dansker.uamp.MEDIA_ID";
+    public static final String BROWSE_TITLE = "dk.glutter.android.dansker.uamp.BROWSE_TITLE";
 
     private MediaBrowserCompat mMediaBrowser;
 

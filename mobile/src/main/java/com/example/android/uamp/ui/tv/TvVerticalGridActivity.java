@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.android.uamp.ui.tv;
+package dk.glutter.android.dansker.uamp.ui.tv;
 
 import android.content.ComponentName;
 import android.os.Bundle;
@@ -22,9 +22,9 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v4.media.MediaBrowserCompat;
 import android.support.v4.media.session.MediaControllerCompat;
 
-import com.example.android.uamp.MusicService;
-import com.example.android.uamp.R;
-import com.example.android.uamp.utils.LogHelper;
+import dk.glutter.android.dansker.uamp.MusicService;
+import dk.glutter.android.dansker.uamp.R;
+import dk.glutter.android.dansker.uamp.utils.LogHelper;
 
 public class TvVerticalGridActivity extends FragmentActivity
         implements TvVerticalGridFragment.MediaFragmentListener {

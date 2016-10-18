@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.android.uamp.utils;
+package dk.glutter.android.dansker.uamp.utils;
 
 import android.util.Log;
 
-import com.example.android.uamp.BuildConfig;
+import dk.glutter.android.dansker.uamp.BuildConfig;
 
 public class LogHelper {
 

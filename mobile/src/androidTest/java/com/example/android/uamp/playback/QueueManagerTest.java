@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.android.uamp.playback;
+package dk.glutter.android.dansker.uamp.playback;
 
 import android.support.annotation.NonNull;
 import android.support.test.runner.AndroidJUnit4;
@@ -21,11 +21,11 @@ import android.support.v4.media.MediaMetadataCompat;
 import android.support.v4.media.session.MediaSessionCompat;
 import android.test.mock.MockResources;
 
-import com.example.android.uamp.TestSetupHelper;
-import com.example.android.uamp.model.MusicProvider;
-import com.example.android.uamp.utils.MediaIDHelper;
-import com.example.android.uamp.utils.QueueHelper;
-import com.example.android.uamp.utils.SimpleMusicProviderSource;
+import dk.glutter.android.dansker.uamp.TestSetupHelper;
+import dk.glutter.android.dansker.uamp.model.MusicProvider;
+import dk.glutter.android.dansker.uamp.utils.MediaIDHelper;
+import dk.glutter.android.dansker.uamp.utils.QueueHelper;
+import dk.glutter.android.dansker.uamp.utils.SimpleMusicProviderSource;
 
 import org.junit.Before;
 import org.junit.Test;

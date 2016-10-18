@@ -14,7 +14,7 @@
 * limitations under the License.
 */
 
-package com.example.android.uamp.utils;
+package dk.glutter.android.dansker.uamp.utils;
 
 import android.content.Context;
 import android.content.pm.ApplicationInfo;
